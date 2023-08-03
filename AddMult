@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main()
+{
+    int a,b,c,m;
+    printf("enter first number =a");
+    scanf(" %d" , &a);
+    printf("enter second number=b");
+    scanf(" %d", &b);
+    c=a+b;
+    m=a*b;
+    printf(" sum is %d",c);
+    printf("/n");
+    printf(" mulyiplication is %d",m);
+}
